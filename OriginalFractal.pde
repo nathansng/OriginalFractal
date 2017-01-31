@@ -8,9 +8,9 @@ public void setup () {
 
 public void draw () {
 	if (makeSmall == true) {
-		len -= 1;
+		len -= 10;
 	} else if (makeSmall == false) {
-		len += 1;
+		len += 10;
 	}
 
 	if (len >= 500) {
